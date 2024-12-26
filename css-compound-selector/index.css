@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -18,6 +19,7 @@ p {
 
 a {
   color: #ffe600;
+  font-weight: 800;
 }
 
 header,
@@ -40,6 +42,7 @@ header {
   padding: 12px 25px;
   font-weight: bold;
   text-decoration: none;
+  margin: 0 10px 0 0;
 }
 .btn.btn-accent {
   background-color: #ffe600;
