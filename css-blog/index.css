@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #2e7ad3;
+  text-align: center;
+  margin: 45px 0;
+}
+.blog-post {
+  width: 500px;
+  color: #104c90;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #f1f1f1;
+}
+h2 {
+  color: #104c90;
+  margin: 0 0 10px 0;
+  font-size: 32px;
+}
+a {
+  color: #ff8000;
+  font-weight: bold;
+}
+a:hover,
+a:focus {
+  color: #104c90;
+}
+.read-more {
+  margin: 0;
+}
+.read-more {
+  display: inline-block;
+  background: #ffe600;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+.read-more:hover {
+  background: orange;
+}
