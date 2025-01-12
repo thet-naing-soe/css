@@ -13,6 +13,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
   animation: expend-fade-in 1.5s ease-out 0s alternate;
+  animation-fill-mode: both;
 }
 
 .title {
