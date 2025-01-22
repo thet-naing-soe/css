@@ -20,17 +20,16 @@ h1 {
     color: #575757;
     font-weight: 900;
 }
-
 /* =================
     Intro
    ================= */
-   
-.intro { 
-    min-height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: #fff;
-    background-color: #9480e4;
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 250px;
+  color: #fff;
+  background-color: #9480e4;
 }
+
