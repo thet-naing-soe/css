@@ -41,6 +41,8 @@ p {
 .main-content {
   display: flex;
   flex-direction: column;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 /* =================
     Intro
@@ -58,7 +60,7 @@ p {
    ==================== */
 .main-content {
   align-items: center;
-  padding: 2.5em 2em 0;
+  padding-top: 2.5em;
 }
 .img-main {
   width: 120px;
@@ -70,6 +72,15 @@ p {
 @media (min-width: 576px) {
   body {
     display: flex;
+  }
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 2.625rem;
+  }
+  .beta-text {
+    font-size: 1.25rem;
   }
   .intro,
   .main-content {
