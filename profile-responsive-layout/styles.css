@@ -37,7 +37,7 @@ p {
 .fine-print {
   font-size: 0.75rem;
   color: #858585;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
 }
 /* =================
     Flex containers
@@ -75,18 +75,38 @@ p {
 /* =================
     Form
    ================= */
-input {
-  font-family: inherit;
+input,
+.btn {
   width: 100%;
+  font-family: inherit;
+  border-radius: 5px;
+}
+input {
   padding: 0.5em;
   margin-bottom: 0.75em;
   border: 2px solid #d1d5db;
-  border-radius: 5px;
 }
 input:focus {
   outline: none;
   background-color: #e6e8ec;
   border-color: #8a71ec;
+}
+.btn {
+  font-weight: 900;
+  padding: 1em 0;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.btn-primary {
+  color: white;
+  background-color: #8a71ec;
+  margin-top: 1em;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #b7a7f6;
+  outline: none;
 }
 /* =================
     Media queries 
