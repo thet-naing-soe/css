@@ -64,3 +64,15 @@ p {
   width: 120px;
   border-radius: 50%;
 }
+/* =================
+    Media queries 
+   ================= */
+@media (min-width: 576px) {
+  body {
+    display: flex;
+  }
+  .intro,
+  .main-content {
+    width: 50%;
+  }
+}
