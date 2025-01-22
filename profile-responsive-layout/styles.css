@@ -24,13 +24,21 @@ p {
 .beta-text {
   font-weight: 900;
 }
-
+.top-text {
+  order: -1;
+  font-size: 0.875rem;
+  font-weight: 900;
+  border-top: 5px solid;
+  padding-top: 0.25em;
+  margin: 0 auto;
+}
 .subheading {
   color: #575757;
   font-weight: 900;
   margin-bottom: 0.5em;
 }
 .beta-text,
+.top-text,
 .subheading {
   text-transform: uppercase;
 }
@@ -53,12 +61,13 @@ p {
     Intro
    ================= */
 .intro {
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   min-height: 250px;
   color: #fff;
   background: #9480e4 url("images/intro-bg.png");
   background-size: cover;
+  padding-bottom: 1.5em;
 }
 
 /* ====================
