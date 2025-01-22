@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #404040;
@@ -80,6 +85,10 @@ p {
 .img-main {
   width: 120px;
   border-radius: 50%;
+}
+.main-content p,
+form {
+  max-width: 450px;
 }
 /* =================
     Form
