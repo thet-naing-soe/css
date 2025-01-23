@@ -7,11 +7,28 @@ body {
   padding: 0;
   font-family: "Manrope", sans-serif;
 }
+/* =================
+    Site Layout 
+   ================= */
 body {
-  margin: 1em;
+  display: grid;
+  grid-template-columns: 1em 1fr 1em;
+  grid-template-areas:
+    "... ... ..."
+    "... head ..."
+    "... main ..."
+    "... foot ..."
+    "... ... ...";
+  gap: 1em 0;
+}
+.site-header {
+  grid-area: head;
+}
+footer {
+  grid-area: foot;
 }
 /* =================
-    Layout
+    Main Element Layout
    ================= */
 .technology {
   grid-area: tech;
@@ -29,9 +46,10 @@ body {
   grid-area: heal;
 }
 main {
+  grid-area: main;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "tech"
     "envi"
     "nasa"
@@ -42,22 +60,20 @@ main {
 @media (min-width: 500px) {
   main {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
+    grid-template-areas:
       "tech tech"
       "envi nasa"
       "phys nasa"
       "heal heal";
   }
-
 }
 @media (min-width: 870px) {
   main {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
+    grid-template-columns: repeat(3, 1fr) minmax(70px, 1fr);
+    grid-template-areas:
       "tech tech envi nasa"
       "phys heal heal nasa";
   }
-
 }
 /* =================
     Article Card 
