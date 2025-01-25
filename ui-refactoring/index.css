@@ -140,7 +140,30 @@ main {
 /* Your Fixes Below */
 body {
   background: #303A52;
+  font-family: 'Nunito',sans-serif;
 }
 nav {
   background: #2C354A;
+}
+main {
+  border: unset;
+}
+a {
+  text-decoration: none;
+}
+a.cta-btn {
+  font-size: 0.9rem;
+  padding: .2em .4em;
+}
+p {
+  line-height: 1.4;
+}
+h3 {
+  font-size: unset;
+}
+nav {
+  text-align: left;
+}
+nav ul li a{
+  font-size: 1.2rem;
 }
