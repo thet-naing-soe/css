@@ -172,6 +172,7 @@ nav ul li a {
   padding: 0.5em 1em;
   margin-bottom: 2em;
 }
+/* Phones Layout */
 @media (min-width: 420px) {
   body {
     padding: 1em;
@@ -194,6 +195,30 @@ nav ul li a {
   }
   .panel ul.data li p {
     margin-bottom: 0;
+  }
+  nav {
+    width: 40%;
+  }
+}
+/* Tablet Layout */
+@media (min-width: 720px) {
+  body {
+    padding: 1.5em;
+  }
+  .columns {
+    display: flex;
+  }
+  .col {
+    flex: 0 0 48%;
+  }
+  .secondary {
+    padding-left: 3em;
+  }
+  ul.secondary {
+    margin-top: 0;
+  }
+  nav {
+    width: 30%;
   }
 }
 
