@@ -154,6 +154,7 @@ a {
 a.cta-btn {
   font-size: 0.9rem;
   padding: .2em .4em;
+  border-radius: .2em;
 }
 p {
   line-height: 1.4;
@@ -166,4 +167,12 @@ nav {
 }
 nav ul li a{
   font-size: 1.2rem;
+  padding: .8em 1em;
+}
+.inner-wrapper {
+  padding: 1em;
+}
+.panel {
+  padding: .5em 1em;
+  margin-bottom: 2em;
 }
