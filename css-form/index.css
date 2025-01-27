@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
-
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   margin: 0;
@@ -46,4 +48,66 @@ span {
 }
 .current span {
   color: #1a004e;
+}
+main {
+  background: #fff;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+h2 {
+  font-size: 1.3em;
+  position: relative;
+  margin-bottom: 1.5em;
+}
+h2:before {
+  content: '';
+  position: absolute;
+  height: 5px;
+  width: 30px;
+  background: #8040FF;
+  left: 0;
+  top: -7px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin: 1.5em 0 .5em;
+}
+input[type="text"], select, textarea {
+  padding:1em;
+  width: 100%;
+  border-radius: .2em;
+  border: 1px solid #ACACAC;
+  color:  #1B1820;
+}
+input[type="text"]:focus, textarea:focus {
+  outline: 3px solid #acacac;
+}
+.left-col .error-field {
+  border: 3px solid #FFB3B3;
+}
+.left-col .error {
+  display: inline-block;
+  background: #FFB3B3;
+  padding: .3em .5em;
+  margin-top: -.1em;
+  font-size: .85em;
+  font-weight: bold;
+}
+.cta {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: #8040FF;
+  color: white;
+  padding: 1em;
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: .2em;
+}
+.cta:hover,.cta:focus {
+  opacity: .9;
 }
